@@ -5,47 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uttam Rai - Data Analyst Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2em;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: scale(1.02);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 5px gray;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Uttam Rai</h1>
-        <p>Data Analyst</p>
+        <p>Professional Data Analyst</p>
     </header>
     <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <section id="about">
         <h2>About Me</h2>
-        <p>Entry-level data analytics professional with a strong foundation in data analysis and visualization...</p>
+        <p>Entry-level data analytics professional with a strong foundation in data analysis and visualization. Proficient in SQL, Sheets, Excel, Tableau, Power BI, Python, and R. Demonstrated ability to effectively communicate insights and foster data-driven decision-making. Strong organizational and analytical skills with a passion for continuous learning and development.</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
             <h3>Data Visualization</h3>
-            <p>Created graphs and visualizations to clearly and effectively represent complex datasets...</p>
+            <p>Created graphs and visualizations to clearly and effectively represent complex datasets using Tableau and Power BI.</p>
         </div>
         <div class="project">
             <h3>Forecast and Demand Planning</h3>
-            <p>Implemented forecasting models to predict future demand trends and assist in strategic planning...</p>
+            <p>Implemented forecasting models to predict future demand trends and assist in strategic planning.</p>
+        </div>
+        <div class="project">
+            <h3>Time Series Forecasting</h3>
+            <p>Developed time series models to forecast future values based on historical data trends using Excel and Google Sheets.</p>
         </div>
     </section>
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Python</li>
-            <li>R</li>
-            <li>Excel</li>
-            <li>Tableau</li>
-            <li>Power BI</li>
+            <li>Programming Languages: Python, R</li>
+            <li>Data Analysis Tools: Excel, Google Sheets, SQL, statistics and probability</li>
+            <li>Data Visualization Tools: Tableau, Power BI</li>
+            <li>Soft Skills: Strong communication, organizational, and analytical skills</li>
         </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:raiuttam.analyst@gmail.com">raiuttam.analyst@gmail.com</a></p>
+        <p>Phone: 8368704798</p>
+        <p>Location: Delhi NCR, Faridabad, Haryana 121013</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/raiuttam" target="_blank">www.linkedin.com/in/raiuttam</a></p>
+        <p>GitHub: <a href="https://raiuttam.github.io/" target="_blank">https://raiuttam.github.io/</a></p>
     </section>
     <section id="education">
         <h2>Education</h2>
@@ -59,20 +149,14 @@
         <p><strong>Freelancer</strong><br>
         Nov 2023 - Mar 2024 | Fiverr</p>
         <ul>
-            <li>Conducted data analysis and visualization projects for clients using Excel...</li>
+            <li>Conducted data analysis and visualization projects for clients using Excel.</li>
+            <li>Performed time series forecasting to support clients' demand planning and decision-making processes.</li>
+            <li>Collaborated with clients to understand their requirements and deliver customized data solutions.</li>
         </ul>
     </section>
     <section id="certifications">
         <h2>Certifications</h2>
         <p><strong>Google Data Analytics Professional Certificate</strong> | Completed 2024</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: raiuttam.analyst@gmail.com</p>
-        <p>Phone: 8368704798</p>
-        <p>Location: Delhi NCR, Faridabad, Haryana 121013</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/raiuttam" target="_blank">www.linkedin.com/in/raiuttam</a></p>
-        <p>GitHub: <a href="https://raiuttam.github.io/" target="_blank">https://raiuttam.github.io/</a></p>
     </section>
     <footer>
         <p>&copy; 2024 Uttam Rai</p>
