@@ -1,0 +1,29 @@
+title: Rai Analytics
+description: >- 
+  Showcasing data analysis and visualization projects by Uttam Rai.
+baseurl: "/"
+url: "https://raiuttam.github.io"
+
+theme: jekyll-theme-cayman
+
+# Build settings
+markdown: kramdown
+
+# Navigation links
+nav_links:
+  - name: "Home"
+    link: "/"
+  - name: "Portfolio"
+    link: "/portfolio"
+  - name: "About"
+    link: "/about"
+  - name: "Blog"
+    link: "/blog"
+  - name: "Contact"
+    link: "/contact"
+
+# Social links
+social_links:
+  twitter: raiuttam
+  linkedin: uttam-rai
+  github: raiuttam
